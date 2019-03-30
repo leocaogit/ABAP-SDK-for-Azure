@@ -18,7 +18,6 @@ ENDCLASS.
 
 CLASS Z_RESTCALL_FROM_DB IMPLEMENTATION.
 
-
   METHOD get_calldata_fromdb.
 
 *   Check if message exists
