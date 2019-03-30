@@ -10,6 +10,7 @@
 *&---------------------------------------------------------------------*
 REPORT zadf_demo_azure_aad.
 
+
 DATA:  gv_interface_aad TYPE zinterface_id VALUE 'DEMO_AAD',
        gv_message_bid   TYPE zbusinessid   VALUE  'TEST_AAD',
        gv_string        TYPE string,
