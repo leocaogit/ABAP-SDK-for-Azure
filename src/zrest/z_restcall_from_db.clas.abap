@@ -20,7 +20,6 @@ CLASS Z_RESTCALL_FROM_DB IMPLEMENTATION.
 
   METHOD get_calldata_fromdb.
 
-
 *   Check if message exists
     SELECT SINGLE * FROM zrest_monitor INTO monitor WHERE zmessageid EQ message_id.
     IF sy-subrc EQ 0.
